@@ -1,55 +1,39 @@
-# Mintlify Starter Kit
+# Documentación de Kawi
 
-Use the starter kit to get your docs deployed and ready to customize.
+Este repositorio contiene la documentación oficial de Kawi construida con Mintlify.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Estructura
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+- `docs.json`: configuración de navegación, marca, enlaces y tema.
+- `index.mdx`: introducción general a Kawi.
+- `quickstart.mdx`: primeros pasos para usuarios.
+- `*.mdx`: páginas de producto, infraestructura, desarrolladores, crecimiento y ayuda.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## Desarrollo
 
-## AI-assisted writing
-
-Set up your AI coding tool to work with Mintlify:
+Instala la CLI de Mintlify para previsualizar los cambios localmente:
 
 ```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
 npm i -g mint
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+Ejecuta el servidor de desarrollo desde la raíz del proyecto:
 
-```
+```bash
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+La previsualización local queda disponible en `http://localhost:3000`.
 
-## Publishing changes
+## Publicación
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+Los cambios se publican desde la integración de Mintlify configurada para este repositorio.
 
-## Need help?
+## Soporte
 
-### Troubleshooting
+Para soporte de Kawi, escribe a [company@mail.kawi.life](mailto:company@mail.kawi.life).
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+Para soporte de Mintlify, consulta la [documentación oficial](https://mintlify.com/docs).
 
 ### Resources
 - [Mintlify documentation](https://mintlify.com/docs)

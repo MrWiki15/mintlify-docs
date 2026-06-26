@@ -1,0 +1,103 @@
+---
+title: "Infraestructura"
+description: "Conoce Kawi Engine, el motor de liquidación híbrida, la liquidez y el uso de Solana."
+---
+
+Kawi funciona como infraestructura, no solo como una aplicación. Su capa técnica coordina pagos, conversiones, rutas, liquidez y confirmaciones.
+
+## Kawi Engine
+
+Kawi Engine es el motor central de la plataforma.
+
+Su función es coordinar:
+
+- Depósitos.
+- Retiros.
+- Conversiones.
+- Liquidez.
+- Rutas de liquidación.
+- Estados de operaciones.
+- Confirmaciones.
+- Integraciones externas.
+
+Kawi Engine permite que la plataforma opere como infraestructura financiera para usuarios, empresas y desarrolladores.
+
+## Motor de liquidación híbrida
+
+El motor de liquidación híbrida conecta fiat y blockchain en un solo flujo.
+
+```text
+Usuario deposita fiat
+↓
+Kawi detecta el pago
+↓
+Kawi convierte a stablecoin
+↓
+Stablecoin se mueve por blockchain
+↓
+Kawi entrega fiat o cripto en destino
+```
+
+## Qué significa híbrido
+
+Significa que Kawi utiliza dos tipos de infraestructura:
+
+- **Fiat:** para que el usuario pueda entrar y salir usando dinero tradicional.
+- **Blockchain:** para mover valor con velocidad, bajo costo y trazabilidad.
+
+La ventaja de este modelo es que toma lo mejor de ambos mundos:
+
+- Fiat aporta familiaridad y acceso.
+- Blockchain aporta velocidad, eficiencia y programabilidad.
+
+## Liquidez y prefunding
+
+Para liquidar operaciones rápidamente, Kawi necesita liquidez disponible.
+
+La liquidez es el dinero o las stablecoins disponibles para ejecutar conversiones sin esperar demasiado.
+
+### Ejemplo
+
+Si un usuario deposita BRL y quiere recibir USDC, Kawi necesita tener acceso a USDC disponible.
+
+### Prefunding
+
+El prefunding consiste en tener fondos preposicionados antes de que llegue la operación.
+
+```text
+Kawi mantiene USDC disponible
+↓
+Usuario deposita fiat
+↓
+Kawi entrega rápidamente
+↓
+La tesorería se rebalancea después
+```
+
+Esto permite mejorar la velocidad de liquidación y ofrecer una experiencia casi instantánea.
+
+## Por qué usamos Solana
+
+Kawi usa Solana como una de sus blockchains base por tres motivos principales.
+
+### Velocidad
+
+Solana permite ejecutar transacciones en segundos.
+
+Esto es importante para una infraestructura de liquidación, porque los usuarios esperan rapidez.
+
+### Costos bajos
+
+Las transacciones en Solana tienen costos muy bajos.
+
+Esto permite reducir comisiones y hacer viable el movimiento de montos pequeños.
+
+### Escalabilidad
+
+Solana puede procesar un alto volumen de transacciones.
+
+Esto permite que Kawi crezca sin depender de una red lenta o costosa.
+
+<Info>
+  Solana es rápida, barata y escalable para los flujos que Kawi necesita liquidar.
+</Info>
